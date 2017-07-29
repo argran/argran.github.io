@@ -1,5 +1,5 @@
 body {
-background:#E6E6FA;
+background:#FFFFFF;
 margin:0;
 padding:0;
 
@@ -58,6 +58,30 @@ p{
 	float:left;
 }
 
+.footer{
+	position:relative;
+	top:110px;
+	z-index:2;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size:12pt;
+	text-align: right;
+
+}
+
+.footerTitle{
+	position: relative;
+	top:-5px;
+	right:10px;
+	z-index:3;
+}
+
+#footerRectangle{
+	width:100%;
+	height:10px;
+	background:#FFFFFF;
+	
+}
 
 .coverimage{
 	width:70px;
